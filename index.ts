@@ -3,6 +3,7 @@ import fs from "node:fs";
 import { createServer } from "node:http";
 import type { Socket } from "node:net";
 import path from "node:path";
+import vercel from "@astrojs/vercel"
 import fastifyMiddie from "@fastify/middie";
 import fastifyStatic from "@fastify/static";
 // @ts-expect-error
